@@ -77,7 +77,7 @@ function Products() {
           initial={{ y: 0, x: "-50%", scale: 0 }}
           animate={{ y: pos + `rem`, scale: isHovering ? 1 : 0 }}
           transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.6 }}
-          className="w-96 h-[23rem] bg-sky-100 left-[44%] absolute overflow-hidden"
+          className="w-96 h-[23rem] left-[44%] absolute overflow-hidden"
         >
           <motion.div
             animate={{ y: -pos + `rem` }}
